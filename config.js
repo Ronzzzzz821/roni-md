@@ -3,12 +3,12 @@ let chalk = require('chalk')
 
 global.owner = [
   ['6285806008040'],
-  ['6285806008040'],
-  ['6285806008040', 'Owner', true]
+  ['79203920936'],
+  ['84569008079', 'Owner', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
-global.prems = [6285806008040] // Premium user has unlimited limit
+global.prems = ['6285806008040'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -56,11 +56,11 @@ fs.watchFile(file_exif, () => {
 })
 
 // Sticker WM
-global.packname = punya
-global.author = roni
+global.packname = sticker_name
+global.author = sticker_author
 global.wm = '© roni'
 
-global.multiplier = 100000 // The higher, The harder levelup
+global.multiplier = 10000 // The higher, The harder levelup
 
 global.rpg = {
   emoticon(string) {
