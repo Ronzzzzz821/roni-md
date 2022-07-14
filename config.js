@@ -60,7 +60,7 @@ global.packname = punya
 global.author = roni
 global.wm = '© roni'
 
-global.multiplier = 1000 // The higher, The harder levelup
+global.multiplier = 100000 // The higher, The harder levelup
 
 global.rpg = {
   emoticon(string) {
