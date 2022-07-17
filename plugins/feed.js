@@ -30,7 +30,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
             if (new Date - global.db.data.users[m.sender].rubahlastclaim > 600000) {
                 if (global.db.data.users[m.sender].makananpet > 0) {
                     global.db.data.users[m.sender].makananpet -= 1
-                    global.db.data.users[m.sender].anakrubah += 20
+                    global.db.data.users[m.sender].anakrubah += 100
                     global.db.data.users[m.sender].rubahlastclaim = new Date * 1
                     conn.reply(m.chat, `Berhasil memberi makan pet ${type}`, m)
                     setTimeout(() => {
@@ -56,7 +56,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
             if (new Date - global.db.data.users[m.sender].kudalastclaim > 600000) {
                 if (global.db.data.users[m.sender].makananpet > 0) {
                     global.db.data.users[m.sender].makananpet -= 1
-                    global.db.data.users[m.sender].anakkuda += 20
+                    global.db.data.users[m.sender].anakkuda += 100
                     global.db.data.users[m.sender].kudalastclaim = new Date * 1
                     conn.reply(m.chat, `Berhasil memberi makan pet ${type}`, m)
                     setTimeout(() => {
@@ -82,7 +82,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
             if (new Date - global.db.data.users[m.sender].serigalalastclaim > 600000) {
                 if (global.db.data.users[m.sender].makananpet > 0) {
                     global.db.data.users[m.sender].makananpet -= 1
-                    global.db.data.users[m.sender].anakserigala += 20
+                    global.db.data.users[m.sender].anakserigala += 100
                     global.db.data.users[m.sender].serigalalastclaim = new Date * 1
                     conn.reply(m.chat, `Berhasil memberi makan pet ${type}`, m)
                     setTimeout(() => {
@@ -108,7 +108,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
             if (new Date - global.db.data.users[m.sender].nagalastclaim > 600000) {
                 if (global.db.data.users[m.sender].makanannaga > 0) {
                     global.db.data.users[m.sender].makanannaga -= 1
-                    global.db.data.users[m.sender].anaknaga += 20
+                    global.db.data.users[m.sender].anaknaga += 100
                     global.db.data.users[m.sender].nagalastclaim = new Date * 1
                     conn.reply(m.chat, `Berhasil memberi makan pet ${type}`, m)
                     setTimeout(() => {
@@ -134,7 +134,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
             if (new Date - global.db.data.users[m.sender].kyubilastclaim > 600000) {
                 if (global.db.data.users[m.sender].makanankyubi > 0) {
                     global.db.data.users[m.sender].makanankyubi -= 1
-                    global.db.data.users[m.sender].anakkyubi += 20
+                    global.db.data.users[m.sender].anakkyubi += 100
                     global.db.data.users[m.sender].kyubilastclaim = new Date * 1
                     conn.reply(m.chat, `Berhasil memberi makan pet ${type}`, m)
                     setTimeout(() => {
@@ -160,7 +160,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
             if (new Date - global.db.data.users[m.sender].centaurlastclaim > 600000) {
                 if (global.db.data.users[m.sender].makanancentaur > 0) {
                     global.db.data.users[m.sender].makanancentaur -= 1
-                    global.db.data.users[m.sender].anakcentaur += 20
+                    global.db.data.users[m.sender].anakcentaur += 100
                     global.db.data.users[m.sender].centaurlastclaim = new Date * 1
                     conn.reply(m.chat, `Berhasil memberi makan pet ${type}`, m)
                     setTimeout(() => {
@@ -186,7 +186,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
             if (new Date - global.db.data.users[m.sender].phonixlastclaim > 600000) {
                 if (global.db.data.users[m.sender].makananphonix > 0) {
                     global.db.data.users[m.sender].makananphonix -= 1
-                    global.db.data.users[m.sender].anakphonix += 20
+                    global.db.data.users[m.sender].anakphonix += 100
                     global.db.data.users[m.sender].phonixlastclaim = new Date * 1
                     conn.reply(m.chat, `Berhasil memberi makan pet ${type}`, m)
                     setTimeout(() => {
@@ -212,7 +212,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
             if (new Date - global.db.data.users[m.sender].griffinlastclaim > 600000) {
                 if (global.db.data.users[m.sender].makanangriffin > 0) {
                     global.db.data.users[m.sender].makanangriffin -= 1
-                    global.db.data.users[m.sender].anakgriffin += 20
+                    global.db.data.users[m.sender].anakgriffin += 100
                     global.db.data.users[m.sender].griffinlastclaim = new Date * 1
                     conn.reply(m.chat, `Berhasil memberi makan pet ${type}`, m)
                     setTimeout(() => {
@@ -238,7 +238,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
             if (new Date - global.db.data.users[m.sender].kucinglastclaim > 600000) {
                 if (global.db.data.users[m.sender].makananpet > 0) {
                     global.db.data.users[m.sender].makananpet -= 1
-                    global.db.data.users[m.sender].anakkucing += 20
+                    global.db.data.users[m.sender].anakkucing += 100
                     global.db.data.users[m.sender].kucinglastclaim = new Date * 1
                     conn.reply(m.chat, `Berhasil memberi makan pet ${type}`, m)
                     setTimeout(() => {
@@ -264,7 +264,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
             if (new Date - global.db.data.users[m.sender].herolastclaim > 600000) {
                 if (global.db.data.users[m.sender].pillhero > 0) {
                     global.db.data.users[m.sender].pillhero -= 1
-                    global.db.data.users[m.sender].exphero += 10 
+                    global.db.data.users[m.sender].exphero += 1000
                     conn.reply(m.chat, `Berhasil memberi pill ${type}`, m)
                     setTimeout(() => {
                          conn.reply(m.chat, 'Waktunya memberi makan *Hero*\nSaya lapar tuan..', m)
