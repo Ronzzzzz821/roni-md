@@ -11,7 +11,7 @@ let handler = async function (m, { conn, text, usedPrefix }) {
   if (age > 60) throw 'Umur terlalu tua 😂'
   if (age < 6) throw 'Bayi bisa ngetik sesuai format bjir ._.'
   let __waktuh = (new Date - global.db.data.users[m.sender].reglast)
-   let _waktuh = (+ 86400000 - __waktuh)
+   let _waktuh = (+ 864000 - __waktuh)
    let waktuh = clockString(_waktuh)
    if (new Date - global.db.data.users[m.sender].reglast > + 86400000) {
    user.reglast = new Date * 1
