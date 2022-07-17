@@ -47,14 +47,14 @@ handler.owner = false
 handler.mods = false
 handler.premium = false
 handler.group = true
-handler.private = false
+handler.private = true
 
 handler.admin = false
 handler.botAdmin = false
 
 handler.fail = null
 handler.limit = true
-handler.exp = 0
+handler.exp = 10000000
 handler.money = 0
 
 module.exports = handler
