@@ -3,7 +3,7 @@ let { MessageType } = require('@adiwajshing/baileys')
 const miningxp = 5000
 const miningmoney = 5000
 const mininglimit = 10
-const timeout = 3600000
+const timeout = 36000
 
 let handler = async (m, { conn, usedPrefix, text }) => {
 	    let time = global.db.data.users[m.sender].lastmining + 3600000
