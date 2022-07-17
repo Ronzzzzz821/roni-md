@@ -358,7 +358,7 @@ let handler = async (m, { conn,usedPrefix, command, text, args }) => {
 
                                 setTimeout(() => {
                                 m.reply(`Yuk mancing mania level extreme lagi`)
-                                }, 28800000) 
+                                }, 288000) 
                                 setTimeout(() => {
                                 m.reply(`${hslse}`)
                                 }, 12000) 
